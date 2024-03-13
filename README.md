@@ -49,6 +49,28 @@ We would like to extend our thanks to the following sponsors for funding Laravel
 - **[byte5](https://byte5.de)**
 - **[OP.GG](https://op.gg)**
 
+
+## Como usar a aplicação
+
+Para usar esta aplicação, siga as etapas abaixo:
+
+### Pré-requisitos
+
+- Composer: Certifique-se de ter o Composer instalado. Você pode baixá-lo em [getcomposer.org](https://getcomposer.org/).
+- Laravel: Instale o framework Laravel executando o comando `composer global require laravel/installer`.
+
+### Configuração do Banco de Dados
+
+1. Renomeie o arquivo `.env.example` para `.env`.
+2. Abra o arquivo `.env` e configure as informações do seu banco de dados, como nome do banco de dados, usuário e senha.
+
+### Executando a Aplicação
+
+1. Abra o terminal e navegue até o diretório do projeto.
+2. Instale as dependências do Composer executando o comando `composer install`.
+3. Inicie o servidor Laravel executando o comando `php artisan serve`.
+4. Acesse a aplicação em seu navegador no endereço [http://localhost:8000](http://localhost:8000).
+
 ## Contributing
 
 Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
